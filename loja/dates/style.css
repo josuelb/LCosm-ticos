@@ -1,26 +1,113 @@
 @charset "UTF-8";
 
-body{
-    background-color: aqua;
-    font-family: Arial, Helvetica, sans-serif;
-}
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,700,100);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700);
+@import url(http://fonts.googleapis.com/css?family=Abel);
 
-header{
-    background-color: white;
+body {
+    background-color: rgba(204, 85, 85, 0.384);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100%;
     width: 100%;
-    border-radius: 10px;
-    border: 1px solid black;
-    box-shadow: 0px 0px 6px 1px black;
+    margin: 0px;
 }
 
-header > div{
-    width: auto;
-    text-align: center;
-    display: block;
+
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+div.section{
+    position: absolute;
+    top: 16%;
+    left: 10%;
+    width: 80%;
+}
+
+
+div.header_top{
+    background-color: #F0F0E9;
     position: relative;
-    top: 30px;
-    left: 0px;
+    top: -10px;
+    width: 100%;
+    height: 40px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+div.contact{
+    position: absolute;
+    bottom: auto;
+}
+div.contact > ul{
+    columns: 2;
+    font-size: 12px;
+}
+
+div.redes{
+    width: 50%;
+    position: absolute;
+    top: 9%;
+    left: 80%;
+}
+div.redes > div.social > ul {
+    columns: 5;
+    font-size: 12px;
+    display: inline-block;
 }
 
 
 
+div.name{
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+    bottom: 9px;
+    height: 60px;
+    font-size: 12px;
+    box-shadow: 0px 0px 1px 1px black;
+}
+div.name > div.container > h1{
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+nav{
+    height: 39px;
+    background-color: white;
+}
+nav > div.nav{
+    position: relative;
+    bottom: 13%;
+    left: 1%;
+}
+nav > div.nav > ul{
+    padding-left: 0;
+    display:inline-block;
+    columns: 3;
+    font-size: 15px;
+}
+
+
+div.search {
+    position: relative;
+    top: -39px;
+    left: 81%;
+}
+
+
+main{
+    position: relative;
+    top: 17px;
+    left: 10%;
+    width: 80%;
+    background-color: #FFFF;
+}
