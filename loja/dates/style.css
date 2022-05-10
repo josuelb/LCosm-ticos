@@ -16,6 +16,7 @@ body {
 
 a{
     text-decoration: none;
+    color: black;
 }
 li{
     list-style: none;
@@ -106,8 +107,64 @@ div.search {
 
 main{
     position: relative;
-    top: 17px;
+    top: 30px;
     left: 10%;
     width: 80%;
     background-color: #FFFF;
+}
+
+
+
+/*Category*/
+main > section.menu > div.container{
+    background-color: gainsboro;
+    width: 20%;
+    border-radius: 10px 10px 10px 10px ;
+}
+
+div.pos_category > h2{
+    height: 10px;
+    display: inline-block;
+    position: relative;
+    bottom: 10px;
+    left: 20%;
+    width: auto;
+    text-align: center;
+}
+div.category > div{
+    margin-left: 10px;
+}
+
+
+div.pós_container{
+    border: 1px solid black;
+    border-radius: 10px 10px 10px 10px ;
+}
+div.lista{
+    text-size-adjust: 100%;
+    display: block;
+    height: auto;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333;
+    -webkit-tap-highlight-color: rgba(0,0,0,0)
+}
+
+
+
+
+/*Entrada*/
+
+section.product > div.container{
+    border: 1px solid black;
+    position: relative;
+    bottom: 335px;
+    left: 229px;
+    height: 300px;
+    width: 20%;
+}
+div.photo > img{
+    width: 216px;
+    height: 200px;
 }
