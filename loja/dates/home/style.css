@@ -16,6 +16,7 @@ body {
 a{
     text-decoration: none;
     color: black;
+    display: inline-block;
 }
 li{
     list-style: none;
@@ -52,6 +53,12 @@ div.redes{
     top: 9%;
     left: 80%;
 }
+
+div.redes, div.social{
+    display: inline;
+    width: 15%;
+}
+
 div.redes > div.social > ul {
     columns: 5;
     font-size: 12px;
@@ -100,76 +107,19 @@ div.search {
     position: relative;
     top: -39px;
     left: 81%;
+    width: 19%;
+}
+div.search_boxpull-right{
+    width: 100%;
 }
 
 
 main{
     box-shadow: 0px 0px 3px 1px black;
     position: relative;
-    top: 35px;
+    top: 2.8vw;
     left: 10%;
     width: 80%;
     background-color: #FFFF;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
 }
-
-
-
-/*Category*/
-main > section.menu > div.container{
-    background-color: gainsboro;
-    width: 20%;
-    border-radius: 10px 10px 10px 10px ;
-}
-
-div.pos_category > h2{
-    height: 10px;
-    display: inline-block;
-    position: relative;
-    bottom: 10px;
-    left: 20%;
-    width: auto;
-    text-align: center;
-}
-div.category > div{
-    margin-left: 10px;
-}
-
-
-div.pós_container{
-    border: 1px solid black;
-    border-radius: 10px 10px 10px 10px ;
-}
-div.lista{
-    text-size-adjust: 100%;
-    display: block;
-    height: auto;
-    box-sizing: border-box;
-    font-size: 14px;
-    line-height: 1.428571429;
-    color: #333;
-    -webkit-tap-highlight-color: rgba(0,0,0,0)
-}
-
-
-
-
-/*Entrada*/
-
-
-section.product > div.container{
-    border: 1px solid black;
-    position: relative;
-    bottom: 334px;
-    left: 229px;
-    height: 330px;
-    width: 20%;
-}
-div.photo > img{
-    position: relative;
-    top: 4px;
-    left: 2.5%;
-    width: 205px;
-    height: 190px;
-}
-
