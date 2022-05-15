@@ -1,125 +1,48 @@
-@charset "UTF-8";
+@charset "UFT-8";
 
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,700,100);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700);
-@import url(http://fonts.googleapis.com/css?family=Abel);
-
-body {
-    background-color: darkcyan;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100%;
-    width: 100%;
-    margin: 0px;
-}
-
-
-a{
-    text-decoration: none;
-    color: black;
-    display: inline-block;
-}
 li{
     list-style: none;
 }
-div.section{
-    position: absolute;
-    top: 16%;
-    left: 10%;
-    width: 80%;
+
+body{
+    background-color: aqua;
+    width: 100vw;
+    margin: 0;
 }
 
-
 div.header_top{
-    background-color: #F0F0E9;
-    position: relative;
-    top: -10px;
+    background-color: antiquewhite;
     width: 100%;
-    height: 40px;
+    height: 20%;
+    border: 1px solid black;
     border-radius: 0px 0px 10px 10px;
 }
 
-div.contact{
-    position: absolute;
-    bottom: auto;
-}
-div.contact > ul{
+div.header_top > div.contact > ul{
     columns: 2;
-    font-size: 12px;
-}
-
-div.redes{
-    width: 50%;
-    position: absolute;
-    top: 9%;
-    left: 80%;
-}
-
-div.redes, div.social{
-    display: inline;
-    width: 15%;
-}
-
-div.redes > div.social > ul {
-    columns: 5;
-    font-size: 12px;
-    display: inline-block;
+    padding: 0;
+    
 }
 
 
-div.name{
+div.Menlog{
+    margin: auto;
     background-color: white;
     width: 80%;
-    margin: auto;
-    padding-top: 5px;
-    padding-bottom: 5px;
     position: relative;
-    bottom: 9px;
-    height: 60px;
-    font-size: 12px;
-    box-shadow: 0px 0px 1px 1px black;
+    top: 5px;
 }
-div.name > div.container > h1{
-    margin: 0px;
-    padding: 10px;
+
+div.Menlog > div.l_2 > h1{
+    margin: 0;
     text-align: center;
 }
 
-
-
-nav{
-    height: 39px;
-    background-color: white;
+div.menu > nav > ul{
+    columns: 4;
+    padding-left: 10px;
 }
-nav > div.nav{
-    position: relative;
-    bottom: 13%;
-    left: 1%;
-}
-nav > div.nav > ul{
-    padding-left: 0;
-    display:inline-block;
-    columns: 3;
-    font-size: 15px;
-}
-
-
-div.search {
-    position: relative;
-    top: -39px;
-    left: 81%;
-    width: 19%;
-}
-div.search_boxpull-right{
-    width: 100%;
-}
-
 
 main{
-    box-shadow: 0px 0px 3px 1px black;
-    position: relative;
-    top: 2.8vw;
-    left: 10%;
-    width: 80%;
-    background-color: #FFFF;
-    border-radius: 0px 0px 10px 10px;
+    background-color: white;
 }
