@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+div.menu{
+    position: relative;
+    top: 30px;
+}
+
+div.menu > nav > a{
+    columns: 4;
+    padding-left: 10px;
+    text-decoration: none;
+}
