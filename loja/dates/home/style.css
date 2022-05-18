@@ -10,7 +10,7 @@ li{
 }
 
 body{
-    background-color: aqua;
+    background-image: linear-gradient(to bottom, rgb(17, 0, 255), rgb(252, 167, 181));
     width: 100vw;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
